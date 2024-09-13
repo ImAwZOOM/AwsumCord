@@ -1,8 +1,8 @@
 /**
- * @name AwsumCord-4.2
+ * @name AwsumCord-5.0
  * @author ImAwsum
- * @version 4.2
- * @description Awsum Team for lovely people
+ * @version 5
+ * @description Awsum Theme only for lovely people
  * @source https://github.com/ImAwZOOM/AwsumCord/edit/main/AwsumCord
  * @BDEditor ImAwsum
 */
@@ -11,12 +11,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500;700&display=swap');
 @import url('https://github.com/ImAwZOOM/AwsumCord/edit/main/AwsumCord');
 
+
 :root {
   --main-color: #A978FF;
   --hover-color: #7D00DB;
   --success-color: #00C54A;
   --danger-color: #CD1F1F;
   --url-color: #3CA6FB;
+
+  /*Background*/
   --background-image: url('https://media.discordapp.net/attachments/1236411542992588861/1253175582766661683/2024-06-19_22.30.38.png?ex=66e59e75&is=66e44cf5&hm=4feb0af5f0364107416223c5adea0916516a07574a7ce3bdf0664ecde1b7dbb8&=&format=webp&quality=lossless&width=550&height=275');
   --background-shading: 100%;
   --background-position: center;
@@ -30,7 +33,9 @@
   --background-invert: 5%;
   --background-blur: 3px;
   --background-overlay: rgb(255,255,255,0);
-  --user-popout-image: url('https://clearvision.github.io/images/sapphire.jpg');
+
+  /*User profiles*/
+  --user-popout-image: url('');
   --user-popout-position: center;
   --user-popout-size: cover;
   --user-popout-repeat: no-repeat;
@@ -52,9 +57,13 @@
   --user-modal-grayscale: 0%;
   --user-modal-invert: 0%;
   --user-modal-blur: 3px;
+
+  /* home */
   --home-icon: url('https://media.discordapp.net/attachments/1177808927094755339/1284244628840775740/62AQRth.png?ex=66e5ed83&is=66e49c03&hm=76603c17b60473d418d30e9cabba88d4f3496ed6cf88d7c4ee552042f7977f3b&=&format=webp&quality=lossless');
   --home-position: center;
   --home-size: 48px;
+  
+   /*Channel*/
   --channel-unread: var(--main-color);
   --channel-color: rgba(255,255,255,0.3);
   --muted-color: rgba(255,255,255,0.1);
@@ -63,10 +72,16 @@
   --dnd-color: #982929;
   --streaming-color: #572E9F;
   --offline-color: #959595;
+  
+  /*Fonts*/
   --main-font: Ubuntu;
   --code-font: Roboto Mono;
+  
+  /*Member and channels*/
   --channels-width: 230px;
   --members-width: 235px;
+  
+  /*Background*/
   --backdrop-overlay: rgba(0,0,0,0.8);
   --backdrop-image: var(--background-image);
   --backdrop-position: var(--background-position);
